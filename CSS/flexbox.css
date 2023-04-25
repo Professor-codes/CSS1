@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    background-color: rgb(159, 161, 175);
+
+    height: 200px;
+    align-items: center;
+}
+
+.flex > div {
+    background: rgb(235, 198, 230);
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    margin: 5px;
+}
